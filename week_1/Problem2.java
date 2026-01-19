@@ -1,5 +1,5 @@
 package ICP_2026.week_1;
-import java.util.*;
+// import java.util.*;
 public class Problem2 {
     public int strStr(String haystack, String needle) {
         if(haystack.length()<needle.length()) return -1;

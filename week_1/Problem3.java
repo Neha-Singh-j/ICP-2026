@@ -9,7 +9,7 @@ public class Problem3 {
         List<List<Integer>> result = threeSum(nums);
         System.out.println(result);
     }
-     public List<List<Integer>> threeSum(int[] nums) {
+     public static List<List<Integer>> threeSum(int[] nums) {
         int n=nums.length;
         Arrays.sort(nums);
         List<List<Integer>> arr=new ArrayList<>();

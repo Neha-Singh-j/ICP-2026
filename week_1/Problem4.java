@@ -1,8 +1,8 @@
 package ICP_2026.week_1;
 
-import java.util.*;
+// import java.util.*;
 
-public class problem4 {
+public class Problem4 {
 	public static void main(String[] args) {
 
         int n = 10;
@@ -10,7 +10,7 @@ public class problem4 {
 
         System.out.println(result);
     }
-     public int countPrimes(int n) {
+     public static int countPrimes(int n) {
         if(n<=2){
             return 0;
         }
